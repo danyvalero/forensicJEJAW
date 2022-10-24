@@ -1,3 +1,5 @@
+import os
+
 def print_logo():
     """
     print out the logo and version information
@@ -49,4 +51,29 @@ def print_logo():
     print('----------------------(version', '1.0' ,')----------------------\n')
     print('The source code is available at https://github.com/danyvalero/forensicJEJAW.git')
     print('Developed by Wilson Barios, Jorge Ortiz, Jose Torregroza y Daniel Valero \'s Team Forensic JEJAW\n')
-print_logo() 
+print_logo()
+
+
+def menu ():
+    print('1. Datos Volatiles')
+    print('2. Metadatos')
+    print('3. Herramientas Memoria RAM')
+    selection = input('Seleccione la herramienta que desee ejecutar: ')
+    return selection
+    #print(selection)
+#print(menu())
+
+#def progam (selection):
+    if selection == '1':
+        print('1')
+    elif selection == '2':
+        print('2')
+    elif selection == '3':
+        print('3')
+    else:
+        print('Opción Invalida')
+    
+    directroy = os.listdir()
+    return directroy
+#print(progam())
+print(menu())
