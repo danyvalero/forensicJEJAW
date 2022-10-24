@@ -39,9 +39,9 @@
                     8 8888         `8 8888       ,8P  8 8888 `8b.     8 8888         8      `Y8o. `Y8 8b   `8.`8888.  8 8888 `8 8888       .8' 
                     8 8888          ` 8888     ,88'   8 8888   `8b.   8 8888         8         `Y8o.` `8b.  ;8.`8888  8 8888    8888     ,88'  
                     8 8888             `8888888P'     8 8888     `88. 8 888888888888 8            `Yo  `Y8888P ,88P'  8 8888     `8888888P'    
-                   """)
+
    
-    ----------------------(version', '1.0' ,')----------------------
+    ----------------------version 1.0----------------------
     The source code is available at https://github.com/danyvalero/forensicJEJAW.git
     Developed by Wilson Barios, Jorge Ortiz, Jose Torregroza y Daniel Valero's Team Forensic JEJAW
 
