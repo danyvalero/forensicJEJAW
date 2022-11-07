@@ -63,11 +63,13 @@ def menu ():
     #print(selection)
 #print(menu())
 
-#def progam (selection):
+def progam (selection):
     if selection == '1':
-        print('1')
+        #path = ".//SoftwareVolatility/SysinternalsSuite/"
+        #print ('De acuerdo a la verisón de su Windows, escriba el nombre del programa:\n')
+        print('path')
     elif selection == '2':
-        print('2')
+        print('hola')
     elif selection == '3':
         print('3')
     else:
