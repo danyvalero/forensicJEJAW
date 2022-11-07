@@ -1,4 +1,7 @@
 import os
+import subprocess
+from datetime import datetime
+from io import open
 
 def print_logo():
     """
@@ -59,23 +62,23 @@ def menu ():
     print('2. Metadatos')
     print('3. Herramientas Memoria RAM')
     selection = input('Seleccione la herramienta que desee ejecutar: ')
-    return selection
-    #print(selection)
-#print(menu())
-
-def progam (selection):
+    
     if selection == '1':
-        #path = ".//SoftwareVolatility/SysinternalsSuite/"
-        #print ('De acuerdo a la verisón de su Windows, escriba el nombre del programa:\n')
-        print('path')
+        try:                
+            date = datetime.today().strftime('%Y-%m-%d %H:%M:%S:%Z')
+            software_name = input ('Escribe nombre del programa a ejecutar: ')
+            run_date = 'Se ejecuto el programa ' + software_name + ' con la fecha del computador a las:', date
+            print(run_date)
+            file = ".//SoftwareVolatility/SysinternalsSuite/" + software_name
+            path = subprocess.Popen(file)
+            out, err = path.communicate(timeout=10)
+            exit_code = path.returncode
+        except:
+            print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     elif selection == '2':
         print('hola')
     elif selection == '3':
         print('3')
     else:
         print('Opción Invalida')
-    
-    directroy = os.listdir()
-    return directroy
-#print(progam())
 print(menu())
