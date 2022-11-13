@@ -58,10 +58,10 @@ print_logo()
 
 
 def menu ():
-    print('1. Datos Volatiles')
-    print('2. Metadatos')
-    print('3. Herramientas Memoria RAM')
-    selection = input('Seleccione la herramienta que desee ejecutar: ')
+    print('1. Análisis Memoria RAM')
+    print('2. Huella Digital')
+    print('3. Forense')
+    selection = input('Seleccione la herramienta que desee ejecutar (1, 2 o 3): ')
     
     if selection == '1':
         try:                
@@ -69,7 +69,7 @@ def menu ():
             software_name = input ('Escribe nombre del programa a ejecutar: ')
             run_date = 'Se ejecuto el programa ' + software_name + ' con la fecha del computador a las:', date
             print(run_date)
-            file = ".//SoftwareVolatility/SysinternalsSuite/" + software_name
+            file = ".//Tools Ram/" + software_name
             path = subprocess.Popen(file)
             out, err = path.communicate(timeout=10)
             exit_code = path.returncode
@@ -78,17 +78,28 @@ def menu ():
     elif selection == '2':
         try:                
             date = datetime.today().strftime('%Y-%m-%d %H:%M:%S:%Z')
+            print('Genera y compara el Hash de los archivos que necesite con estos dos programas: HashMyFiles y md5summer\n')
             software_name = input ('Escribe nombre del programa a ejecutar: ')
             run_date = 'Se ejecuto el programa con la siguiente línea de comando' + software_name + ' con la fecha del computador a las:', date
             print(run_date)
-            file = ".//Metadato/" + software_name
+            file = ".//Hash" + software_name
             path = subprocess.Popen(file)
             out, err = path.communicate(timeout=10)
             exit_code = path.returncode
         except:
             print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     elif selection == '3':
-        print('3')
+        try:                
+            date = datetime.today().strftime('%Y-%m-%d %H:%M:%S:%Z')
+            software_name = input ('Escribe nombre del programa a ejecutar: ')
+            run_date = 'Se ejecuto el programa con la siguiente línea de comando' + software_name + ' con la fecha del computador a las:', date
+            print(run_date)
+            file = ".//Forense" + software_name
+            path = subprocess.Popen(file)
+            out, err = path.communicate(timeout=10)
+            exit_code = path.returncode
+        except:
+            print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     else:
         print('Opción Invalida')
 print(menu())
