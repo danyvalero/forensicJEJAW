@@ -76,7 +76,17 @@ def menu ():
         except:
             print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     elif selection == '2':
-        print('hola')
+        try:                
+            date = datetime.today().strftime('%Y-%m-%d %H:%M:%S:%Z')
+            software_name = input ('Escribe nombre del programa a ejecutar: ')
+            run_date = 'Se ejecuto el programa con la siguiente línea de comando' + software_name + ' con la fecha del computador a las:', date
+            print(run_date)
+            file = ".//Metadato/" + software_name
+            path = subprocess.Popen(file)
+            out, err = path.communicate(timeout=10)
+            exit_code = path.returncode
+        except:
+            print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     elif selection == '3':
         print('3')
     else:
