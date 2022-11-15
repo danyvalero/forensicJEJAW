@@ -1,7 +1,7 @@
-import os
 import subprocess
 from datetime import datetime
 from io import open
+
 
 def print_logo():
     """
@@ -64,15 +64,19 @@ def menu ():
     selection = input('Seleccione la herramienta que desee ejecutar (1, 2 o 3): ')
     
     if selection == '1':
-        try:                
-            date = datetime.today().strftime('%Y-%m-%d %H:%M:%S:%Z')
+        try:
+            fichero = open ('.//memoryram.txt', 'a', encoding='utf-8')                
+            date = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
             software_name = input ('Escribe nombre del programa a ejecutar: ')
-            run_date = 'Se ejecuto el programa ' + software_name + ' con la fecha del computador a las:', date
+            run_date = 'Se ejecuto el programa ' + software_name + ' con la fecha del computador: ', date
             print(run_date)
             file = ".//Tools Ram/" + software_name
-            path = subprocess.Popen(file)
-            out, err = path.communicate(timeout=10)
-            exit_code = path.returncode
+            fichero.writelines(run_date)
+            path_program = subprocess.Popen(file)          
+            out, err = path_program.communicate(timeout=10)
+            exit_code = path_program.returncode
+            fichero.writelines('\n' + file + '\n')
+            fichero.close()
         except:
             print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     elif selection == '2':
