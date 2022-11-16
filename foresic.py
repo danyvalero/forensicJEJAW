@@ -65,7 +65,7 @@ def menu ():
     
     if selection == '1':
         try:
-            fichero = open ('.//memoryram.txt', 'a', encoding='utf-8')                
+            fichero = open ('.//Result/memoryram.txt', 'a', encoding='utf-8')                
             date = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
             software_name = input ('Escribe nombre del programa a ejecutar: ')
             run_date = 'Se ejecuto el programa ' + software_name + ' con la fecha del computador: ', date
