@@ -1,2 +1,0 @@
-Se ejecuto el programa pslist.exe con la fecha del computador: 2022-11-15 21:02:01
-.//Tools Ram/pslist.exe

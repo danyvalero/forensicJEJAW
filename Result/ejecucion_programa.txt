@@ -1,0 +1,7 @@
+Se ejecuto el programa WFA.exe con la fecha del computador: 2022-11-16 21:57:48
+.//Forense/WFA.exe
+Se ejecuto el programa FTK Imager.exe con la fecha del computador: 2022-11-16 21:58:12
+.//Forense/TimeStampClientGui.exe
+Se ejecuto el programa HashMyFiles.exe con la fecha del computador: 2022-11-16 22:02:03
+.//Hash/HashMyFiles.exe
+

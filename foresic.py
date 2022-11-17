@@ -65,7 +65,7 @@ def menu ():
     
     if selection == '1':
         try:
-            fichero = open ('.//Result/memoryram.txt', 'a', encoding='utf-8')                
+            fichero = open ('.//Result/ejecucion_programa.txt', 'a', encoding='utf-8')                
             date = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
             software_name = input ('Escribe nombre del programa a ejecutar: ')
             run_date = 'Se ejecuto el programa ' + software_name + ' con la fecha del computador: ', date
@@ -80,28 +80,36 @@ def menu ():
         except:
             print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     elif selection == '2':
-        try:                
-            date = datetime.today().strftime('%Y-%m-%d %H:%M:%S:%Z')
-            print('Genera y compara el Hash de los archivos que necesite con estos dos programas: HashMyFiles y md5summer\n')
+        try:
+            fichero = open ('.//Result/ejecucion_programa.txt', 'a', encoding='utf-8')                
+            date = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
+            print('Genera y compara el Hash de los archivos que necesite con estos dos programas: HashMyFiles y md5summer')
             software_name = input ('Escribe nombre del programa a ejecutar: ')
-            run_date = 'Se ejecuto el programa con la siguiente línea de comando' + software_name + ' con la fecha del computador a las:', date
+            run_date = 'Se ejecuto el programa ' + software_name + ' con la fecha del computador: ', date
             print(run_date)
-            file = ".//Hash" + software_name
-            path = subprocess.Popen(file)
-            out, err = path.communicate(timeout=10)
-            exit_code = path.returncode
+            file = ".//Hash/" + software_name
+            fichero.writelines(run_date)
+            path_program = subprocess.Popen(file)          
+            out, err = path_program.communicate(timeout=10)
+            exit_code = path_program.returncode
+            fichero.writelines('\n' + file + '\n')
+            fichero.close()
         except:
             print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     elif selection == '3':
-        try:                
-            date = datetime.today().strftime('%Y-%m-%d %H:%M:%S:%Z')
+        try:
+            fichero = open ('.//Result/ejecucion_programa.txt', 'a', encoding='utf-8')                
+            date = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
             software_name = input ('Escribe nombre del programa a ejecutar: ')
-            run_date = 'Se ejecuto el programa con la siguiente línea de comando' + software_name + ' con la fecha del computador a las:', date
+            run_date = 'Se ejecuto el programa ' + software_name + ' con la fecha del computador: ', date
             print(run_date)
-            file = ".//Forense" + software_name
-            path = subprocess.Popen(file)
-            out, err = path.communicate(timeout=10)
-            exit_code = path.returncode
+            file = ".//Forense/" + software_name
+            fichero.writelines(run_date)
+            path_program = subprocess.Popen(file)          
+            out, err = path_program.communicate(timeout=10)
+            exit_code = path_program.returncode
+            fichero.writelines('\n' + file + '\n')
+            fichero.close()
         except:
             print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     else:
