@@ -45,7 +45,7 @@
     The source code is available at https://github.com/danyvalero/forensicJEJAW.git
     Developed by Wilson Barios, Jorge Ortiz, Jose Torregroza y Daniel Valero's Team Forensic JEJAW
 
-El uso de este programa es responsabilidad de cada uno, los desarrolladores no se hacen responsables de un mal uso o daño algún dispositivo.
+El uso de este programa es responsabilidad de cada uno, los desarrolladores no se hacen responsables de un mal uso o daño en algún dispositivo.
 
 Instrucciones de Uso
 
@@ -237,3 +237,6 @@ TimeStampClientGui.exe - Aplicación GUI utilizable en Windows
 WFA.exe - Esta aplicación decodifica y analiza algunos archivos especiales utilizados por el sistema operativo Windows. Los resultados de cada análisis se pueden imprimir en un formato fácil de usar.
 
 WinAudit.exe - Es una utilidad de inventario para ordenadores Windows. Crea un informe completo sobre la configuración, el hardware y el software de una máquina.
+
+
+Team Forensic JEJAW
