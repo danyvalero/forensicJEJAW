@@ -72,7 +72,7 @@ def menu ():
             print(run_date)
             file = ".//Tools Ram/" + software_name
             fichero.writelines(run_date)
-            path_program = subprocess.Popen(file)          
+            path_program = subprocess.Popen([file], stdout=fichero, stderr=subprocess.PIPE, universal_newlines=True)          
             out, err = path_program.communicate(timeout=10)
             exit_code = path_program.returncode
             fichero.writelines('\n' + file + '\n')
