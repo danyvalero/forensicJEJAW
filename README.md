@@ -47,7 +47,19 @@
 
 El uso de este programa es responsabilidad de cada uno, los desarrolladores no se hacen responsables de un mal uso o daño en algún dispositivo.
 
+Requisitos
+1. python 3.5 o superior
+2. Ingresar al siguiente link https://github.com/danyvalero/forensicJEJAW.git , ir a la opción de "code" y luego descargar en .zip 
+3. Descomprimir el .zip
+4. Ejecutar foresic.py o desde Windows abrir una ventana MS-DOS, ir a la ruta donde se descomprime el archivo y escribir la siguiente línea de comando: python .\foresic.py
+5. Seguir instrucciones de uso.
+
+Nota.
+Este programa por el momento es funcional solo para Sistema Operativo Microsoft Windows 7 SP1 y/o superior, en las próximas versiones se logrará adaptar para otros Sistemas Operativos
+
 Instrucciones de Uso
+
+Descargar
 
 El programa esta divido en tres opciones:
 
@@ -228,7 +240,7 @@ EMFSpoolViewer.exe - Este programa le ayudará a ver lo que usted u otra persona
 
 encase.exe - Plataforma de investigación que recolecta datos digitales, realiza análisis, informa sobre descubrimientos y los preserva en un formato válido a efectos legales y validado por los tribunales.
 
-FTK Imager.exe - Es una herramienta de previsualización de datos y creación de imágenes que le permite evaluar rápidamente las pruebas electrónicas para determinar si se justifica un análisis posterior con una herramienta forense como Forensic Toolkit (FTK®)
+FTK Imager.exe - Es una herramienta de previsualización de datos y creación de imágenes que le permite evaluar rápidamente las pruebas electrónicas para determinar si se justifica un análisis posterior con una herramienta forense como Forensic Toolkit (FTK®) (puede presentarse problemas al abrir)
 
 TimeStampClientCmd.exe - Herramienta de línea de comandos utilizable en Windows, Linux y macOS
 
