@@ -72,13 +72,13 @@ def menu ():
             print(run_date)
             file = ".//Tools Ram/" + software_name
             fichero.writelines(run_date)
-            path_program = subprocess.Popen(file)          
+            path_program = subprocess.Popen([file], stdout=fichero, stderr=subprocess.PIPE, universal_newlines=True)          
             out, err = path_program.communicate(timeout=10)
             exit_code = path_program.returncode
             fichero.writelines('\n' + file + '\n')
             fichero.close()
         except:
-            print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
+            print('programa no existe o necesita alguna bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     elif selection == '2':
         try:
             fichero = open ('.//Result/ejecucion_programa.txt', 'a', encoding='utf-8')                
@@ -95,7 +95,7 @@ def menu ():
             fichero.writelines('\n' + file + '\n')
             fichero.close()
         except:
-            print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
+            print('programa no existe o necesita alguna bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     elif selection == '3':
         try:
             fichero = open ('.//Result/ejecucion_programa.txt', 'a', encoding='utf-8')                
@@ -111,7 +111,7 @@ def menu ():
             fichero.writelines('\n' + file + '\n')
             fichero.close()
         except:
-            print('programa no existe o necesita alguan bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
+            print('programa no existe o necesita alguna bandera para ejeuctarse, consulte ayuda con -h en el programa disponible')
     else:
         print('Opción Invalida')
 print(menu())
