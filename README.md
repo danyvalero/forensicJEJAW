@@ -43,7 +43,7 @@
 
     ----------------------version 1.0----------------------
     The source code is available at https://github.com/danyvalero/forensicJEJAW.git
-    Developed by Wilson Barios, Jorge Ortiz, Jose Torregroza y Daniel Valero's Team Forensic JEJAW
+    Developed by Wilson Barios, Jorge Ortiz, Edagar Robayo, Jose Torregroza y Daniel Valero's Team Forensic JEJAW
 
 El uso de este programa es responsabilidad de cada uno, los desarrolladores no se hacen responsables de un mal uso o daño en algún dispositivo.
 
