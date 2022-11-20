@@ -75,6 +75,7 @@ def menu ():
             path_program = subprocess.Popen([file], stdout=fichero, stderr=subprocess.PIPE, universal_newlines=True)          
             out, err = path_program.communicate(timeout=10)
             exit_code = path_program.returncode
+            print('El programa finalizó la ejecución correctamente')
             fichero.writelines('\n' + file + '\n')
             fichero.close()
         except:
@@ -92,6 +93,7 @@ def menu ():
             path_program = subprocess.Popen(file)          
             out, err = path_program.communicate(timeout=10)
             exit_code = path_program.returncode
+            print('El programa finalizó la ejecución correctamente')
             fichero.writelines('\n' + file + '\n')
             fichero.close()
         except:
@@ -108,6 +110,7 @@ def menu ():
             path_program = subprocess.Popen(file)          
             out, err = path_program.communicate(timeout=10)
             exit_code = path_program.returncode
+            print('El programa finalizó la ejecución correctamente')
             fichero.writelines('\n' + file + '\n')
             fichero.close()
         except:

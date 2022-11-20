@@ -77,7 +77,7 @@ Aquí puede encontrar los programas volátiles, Para obtener más información s
 
 Para ejecutar los programas debe ejecutar la siguiente instrucción: nombre_programa.exe , si requiere ayuda sobre la ejecución de ellos puede escribir con la bandera -h donde muestra una ayuda del programa, por ejemplo nombre_programa.exe -h ; si el programa requiere alguna bandera deberá consultar la ayuda del programa y luego su respectivo comando, por ejemplo nombre_programa.exe -l
 
-AccessChk - Es una herramienta de línea de comandos para ver los permisos efectivos de los archivos, las claves del registro, los servicios, los procesos, los objetos del kernel, etc.
+accesschk - Es una herramienta de línea de comandos para ver los permisos efectivos de los archivos, las claves del registro, los servicios, los procesos, los objetos del kernel, etc.
 
 AccessEnum - Esta herramienta de seguridad le muestra quién tiene qué acceso a los directorios, archivos y claves del Registro en sus sistemas. Utilízala para encontrar agujeros en tus permisos.
 
@@ -85,131 +85,125 @@ AdExplorer - Active Directory Explorer es un visor y editor avanzado de Active D
 
 AdInsight - Una herramienta de monitorización en tiempo real de LDAP (Light-weight Directory Access Protocol) destinada a la resolución de problemas de las aplicaciones cliente de Active Directory.
 
-AdRestore - Deshace los objetos de Active Directory de Server 2003.
+adrestore - Deshace los objetos de Active Directory de Server 2003.
 
 Autologon - Evita la pantalla de contraseña durante el inicio de sesión.
 
 Autoruns - Vea qué programas están configurados para iniciarse automáticamente cuando su sistema arranca y usted se conecta. Autoruns también le muestra la lista completa de las ubicaciones del Registro y de los archivos donde las aplicaciones pueden configurar los ajustes de inicio automático.
 
-BgInfo - Este programa totalmente configurable genera automáticamente fondos de escritorio que incluyen información importante sobre el sistema, incluyendo direcciones IP, nombre del ordenador, adaptadores de red y más.
+Bginfo - Este programa totalmente configurable genera automáticamente fondos de escritorio que incluyen información importante sobre el sistema, incluyendo direcciones IP, nombre del ordenador, adaptadores de red y más.
 
-CacheSet - CacheSet es un programa que permite controlar el tamaño del conjunto de trabajo del Gestor de Caché utilizando funciones proporcionadas por NT. Es compatible con todas las versiones de NT.
+Cacheset - CacheSet es un programa que permite controlar el tamaño del conjunto de trabajo del Gestor de Caché utilizando funciones proporcionadas por NT. Es compatible con todas las versiones de NT.
 
-ClockRes - Visualiza la resolución del reloj del sistema, que es también la resolución máxima del temporizador.
-
-Contig - ¿Desea desfragmentar rápidamente sus archivos de uso frecuente? Utilice Contig para optimizar archivos individuales, o para crear nuevos archivos que sean contiguos.
+Clockres - Visualiza la resolución del reloj del sistema, que es también la resolución máxima del temporizador.
 
 Coreinfo - Coreinfo es una nueva utilidad de línea de comandos que muestra el mapeo entre los procesadores lógicos y el procesador físico, el nodo NUMA y el socket en el que residen, así como las cachés asignadas a cada procesador lógico.
 
-Ctrl2cap - Se trata de un controlador en modo kernel que demuestra el filtrado de la entrada del teclado justo por encima del controlador de la clase de teclado para convertir los bloqueos de mayúsculas en teclas de control. El filtrado a este nivel permite convertir y ocultar las teclas antes de que NT las "vea". Ctrl2cap también muestra cómo utilizar NtDisplayString() para imprimir mensajes en la pantalla azul de inicialización.
+ctrl2cap - Se trata de un controlador en modo kernel que demuestra el filtrado de la entrada del teclado justo por encima del controlador de la clase de teclado para convertir los bloqueos de mayúsculas en teclas de control. El filtrado a este nivel permite convertir y ocultar las teclas antes de que NT las "vea". Ctrl2cap también muestra cómo utilizar NtDisplayString() para imprimir mensajes en la pantalla azul de inicialización.
 
-DebugView - Otra novedad de Sysinternals: Este programa intercepta las llamadas realizadas a DbgPrint por los controladores de dispositivos y a OutputDebugString realizadas por los programas Win32. Permite ver y grabar la salida de la sesión de depuración en su máquina local o a través de Internet sin un depurador activo.
+Dbgview - Otra novedad de Sysinternals: Este programa intercepta las llamadas realizadas a DbgPrint por los controladores de dispositivos y a OutputDebugString realizadas por los programas Win32. Permite ver y grabar la salida de la sesión de depuración en su máquina local o a través de Internet sin un depurador activo.
 
-Escritorios - Esta nueva utilidad permite crear hasta cuatro escritorios virtuales y utilizar una interfaz de bandeja o teclas de acceso rápido para previsualizar lo que hay en cada escritorio y cambiar fácilmente entre ellos.
+Desktops - Esta nueva utilidad permite crear hasta cuatro escritorios virtuales y utilizar una interfaz de bandeja o teclas de acceso rápido para previsualizar lo que hay en cada escritorio y cambiar fácilmente entre ellos.
 
-Disk2vhd - Disk2vhd simplifica la migración de sistemas físicos a máquinas virtuales (p2v).
+disk2vhd - Disk2vhd simplifica la migración de sistemas físicos a máquinas virtuales (p2v).
 
-DiskExt - Muestra las asignaciones de disco de los volúmenes.
+diskext - Muestra las asignaciones de disco de los volúmenes.
 
 Diskmon - Esta utilidad captura toda la actividad del disco duro o actúa como una luz de actividad del disco de software en la bandeja del sistema.
 
 DiskView - Utilidad gráfica de sectores de disco.
 
-Disk Usage (DU) - Ver el uso del disco por directorio.
+du - Ver el uso del disco por directorio.
 
-EFSDump - Vea la información de los archivos encriptados.
+efsdump - Vea la información de los archivos encriptados.
 
-Handle - Esta práctica utilidad de línea de comandos le mostrará qué archivos están abiertos por qué procesos, y mucho más.
+handle - Esta práctica utilidad de línea de comandos le mostrará qué archivos están abiertos por qué procesos, y mucho más.
 
-Hex2dec - Convierte números hexadecimales a decimales y viceversa.
+hex2dec - Convierte números hexadecimales a decimales y viceversa.
 
-Junction - Crea enlaces simbólicos Win2K NTFS.
+junction - Crea enlaces simbólicos Win2K NTFS.
 
-LDMDump - Vuelca el contenido de la base de datos en disco del Administrador de Discos Lógicos, que describe el particionamiento de los discos dinámicos de Windows 2000.
+ldmdump - Vuelca el contenido de la base de datos en disco del Administrador de Discos Lógicos, que describe el particionamiento de los discos dinámicos de Windows 2000.
 
-ListDLLs - Enumera todas las DLLs que están cargadas actualmente, incluyendo dónde están cargadas y sus números de versión. La versión 2.0 imprime los nombres completos de las rutas de los módulos cargados.
+ListdLLs - Enumera todas las DLLs que están cargadas actualmente, incluyendo dónde están cargadas y sus números de versión. La versión 2.0 imprime los nombres completos de las rutas de los módulos cargados.
 
-LiveKd - Utiliza los depuradores del kernel de Microsoft para examinar un sistema en vivo.
+livekd - Utiliza los depuradores del kernel de Microsoft para examinar un sistema en vivo.
 
-LoadOrder - Vea el orden en que se cargan los dispositivos en su sistema WinNT/2K.
+LoadOrd - Vea el orden en que se cargan los dispositivos en su sistema WinNT/2K.
 
-SesionesDeInicioDeSesión - Lista las sesiones de inicio de sesión activas en un sistema.
+logonsessions - Lista las sesiones de inicio de sesión activas en un sistema.
 
-MoverArchivo - Permite programar los comandos de mover y borrar para el próximo reinicio.
+movefile - Permite programar los comandos de mover y borrar para el próximo reinicio.
 
-NTFSInfo - Utilice NTFSInfo para ver información detallada sobre los volúmenes NTFS, incluyendo el tamaño y la ubicación de la Tabla Maestra de Archivos (MFT) y la zona MFT, así como los tamaños de los archivos de metadatos NTFS.
+ntfsinfo - Utilice NTFSInfo para ver información detallada sobre los volúmenes NTFS, incluyendo el tamaño y la ubicación de la Tabla Maestra de Archivos (MFT) y la zona MFT, así como los tamaños de los archivos de metadatos NTFS.
 
-PageDefrag - Desfragmenta los archivos de paginación y las colmenas del Registro.
+pendmoves - Enumera la lista de comandos de renombrado y borrado de archivos que se ejecutarán en el siguiente arranque.
 
-PendMoves - Enumera la lista de comandos de renombrado y borrado de archivos que se ejecutarán en el siguiente arranque.
-
-PipeList - Muestra las tuberías con nombre en su sistema, incluyendo el número de instancias máximas e instancias activas para cada tubería.
+pipelist - Muestra las tuberías con nombre en su sistema, incluyendo el número de instancias máximas e instancias activas para cada tubería.
 
 PortMon- Supervisa la actividad de los puertos serie y paralelo con esta avanzada herramienta de monitorización. Conoce todos los IOCTLs seriales y paralelos estándar e incluso le muestra una parte de los datos que se envían y reciben. La versión 3.x tiene nuevas y potentes mejoras en la interfaz de usuario y capacidades avanzadas de filtrado.
 
-ProcDump - Esta nueva utilidad de línea de comandos está destinada a capturar volcados de procesos de picos de CPU que de otro modo serían difíciles de aislar y reproducir. También sirve como una utilidad general de creación de volcados de procesos y también puede supervisar y generar volcados de procesos cuando un proceso tiene una ventana colgada o una excepción no manejada.
+procdump - Esta nueva utilidad de línea de comandos está destinada a capturar volcados de procesos de picos de CPU que de otro modo serían difíciles de aislar y reproducir. También sirve como una utilidad general de creación de volcados de procesos y también puede supervisar y generar volcados de procesos cuando un proceso tiene una ventana colgada o una excepción no manejada.
 
-Explorador de procesos - Averigüe qué archivos, claves de registro y otros objetos tienen abiertos los procesos, qué DLL han cargado y mucho más. Esta potente utilidad le mostrará incluso quién es el propietario de cada proceso.
+procexp - Averigüe qué archivos, claves de registro y otros objetos tienen abiertos los procesos, qué DLL han cargado y mucho más. Esta potente utilidad le mostrará incluso quién es el propietario de cada proceso.
 
-Process Monitor - Monitoriza la actividad del sistema de archivos, del Registro, de los procesos, de los hilos y de las DLL en tiempo real.
-
-ProcFeatures - Este applet informa sobre la compatibilidad del procesador y de Windows con las extensiones de direcciones físicas y la protección contra el desbordamiento de búfer No Execute.
+Procmon - Monitoriza la actividad del sistema de archivos, del Registro, de los procesos, de los hilos y de las DLL en tiempo real.
 
 PsExec - Ejecuta procesos en sistemas remotos.
 
-PsFile - Ve qué archivos se abren de forma remota.
+psfile - Ve qué archivos se abren de forma remota.
 
-PsGetSid - Muestra el SID de un ordenador o de un usuario.
+PsGetsid - Muestra el SID de un ordenador o de un usuario.
 
 PsInfo - Obtiene información sobre un sistema.
 
-PsKill - Termina procesos locales o remotos.
+pskill - Termina procesos locales o remotos.
 
-PsList - Muestra información sobre procesos e hilos.
+pslist - Muestra información sobre procesos e hilos.
 
-PsLoggedOn - Muestra los usuarios conectados a un sistema.
+PsLoggedon - Muestra los usuarios conectados a un sistema.
 
-PsLogList - Vuelca los registros de eventos.
+psloglist - Vuelca los registros de eventos.
 
-PsPasswd - Cambia las contraseñas de las cuentas.
+pspasswd - Cambia las contraseñas de las cuentas.
 
 PsService - Ver y controlar los servicios.
 
-PsShutdown - Apaga y opcionalmente reinicia un ordenador.
+psshutdown - Apaga y opcionalmente reinicia un ordenador.
 
-PsSuspender - Suspende y reanuda procesos.
+pssuspend - Suspende y reanuda procesos.
 
 RAMMap - Una utilidad avanzada de análisis del uso de la memoria física que presenta la información de uso de diferentes maneras en sus diferentes pestañas.
 
 RegDelNull - Escanea y elimina las claves del Registro que contienen caracteres nulos incrustados que, de otro modo, no pueden ser eliminados por las herramientas estándar de edición del Registro.
 
-RegJump - Salta a la ruta del registro que especifique en Regedit.
+regjump - Salta a la ruta del registro que especifique en Regedit.
 
-RootkitRevealer - Analiza su sistema en busca de malware basado en rootkits.
+ru - Analiza su sistema en busca de malware basado en rootkits.
 
-SDelete - Sobrescriba de forma segura sus archivos sensibles y limpie su espacio libre de archivos previamente borrados utilizando este programa de borrado seguro que cumple con el DoD.
+sdelete - Sobrescriba de forma segura sus archivos sensibles y limpie su espacio libre de archivos previamente borrados utilizando este programa de borrado seguro que cumple con el DoD.
 
 ShareEnum - Escanee los archivos compartidos en su red y vea su configuración de seguridad para cerrar agujeros de seguridad.
 
 ShellRunas - Inicie programas como un usuario diferente a través de una cómoda entrada del menú contextual del shell.
 
-Sigcheck - Vuelca la información de la versión de los archivos y verifica que las imágenes de su sistema están firmadas digitalmente.
+sigcheck - Vuelca la información de la versión de los archivos y verifica que las imágenes de su sistema están firmadas digitalmente.
 
-Streams - Revela flujos alternativos de NTFS.
+streams - Revela flujos alternativos de NTFS.
 
-Strings - Busca cadenas ANSI y UNICODE en imágenes binarias.
+strings - Busca cadenas ANSI y UNICODE en imágenes binarias.
 
-Sincronización - Descarga de datos en caché en el disco.
+sync - Descarga de datos en caché en el disco.
 
-TCPView - Visor de línea de comandos de socket activo.
+tcpvcon - Visor de línea de comandos de socket activo.
 
-VMMap - VMMap es una utilidad de análisis de la memoria virtual y física de los procesos.
+vmmap - VMMap es una utilidad de análisis de la memoria virtual y física de los procesos.
 
-VolumeId - Establece el ID de volumen de las unidades FAT o NTFS.
+Volumeid - Establece el ID de volumen de las unidades FAT o NTFS.
 
-Whois - Vea quién es el propietario de una dirección de Internet.
+whois - Vea quién es el propietario de una dirección de Internet.
 
-WinObj - El último visor de espacios de nombres del Administrador de Objetos está aquí.
+Winobj - El último visor de espacios de nombres del Administrador de Objetos está aquí.
 
 ZoomIt - Utilidad de presentación para hacer zoom y dibujar en la pantalla.
 
@@ -240,7 +234,7 @@ EMFSpoolViewer.exe - Este programa le ayudará a ver lo que usted u otra persona
 
 encase.exe - Plataforma de investigación que recolecta datos digitales, realiza análisis, informa sobre descubrimientos y los preserva en un formato válido a efectos legales y validado por los tribunales.
 
-FTK Imager.exe - Es una herramienta de previsualización de datos y creación de imágenes que le permite evaluar rápidamente las pruebas electrónicas para determinar si se justifica un análisis posterior con una herramienta forense como Forensic Toolkit (FTK®) (puede presentarse problemas al abrir)
+FTK_Imager.exe - Es una herramienta de previsualización de datos y creación de imágenes que le permite evaluar rápidamente las pruebas electrónicas para determinar si se justifica un análisis posterior con una herramienta forense como Forensic Toolkit (FTK®) (puede presentarse problemas al abrir)
 
 TimeStampClientCmd.exe - Herramienta de línea de comandos utilizable en Windows, Linux y macOS
 
