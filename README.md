@@ -135,8 +135,6 @@ logonsessions - Lista las sesiones de inicio de sesión activas en un sistema.
 
 movefile - Permite programar los comandos de mover y borrar para el próximo reinicio.
 
-ntfsinfo - Utilice NTFSInfo para ver información detallada sobre los volúmenes NTFS, incluyendo el tamaño y la ubicación de la Tabla Maestra de Archivos (MFT) y la zona MFT, así como los tamaños de los archivos de metadatos NTFS.
-
 pendmoves - Enumera la lista de comandos de renombrado y borrado de archivos que se ejecutarán en el siguiente arranque.
 
 pipelist - Muestra las tuberías con nombre en su sistema, incluyendo el número de instancias máximas e instancias activas para cada tubería.
